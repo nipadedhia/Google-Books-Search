@@ -10,18 +10,6 @@ function Navbar() {
           Google Books
         </Link>
         <ul className="navbar-nav">
-          {/* <li className="nav-item">
-            <Link
-              to="/search"
-              className={
-                window.location.pathname === "/search"
-                  ? "nav-link active"
-                  : "nav-link"
-              }>
-              {" "}
-              Search
-            </Link>
-          </li> */}
           <li className="nav-item">
             <Link
               to="/saved"
