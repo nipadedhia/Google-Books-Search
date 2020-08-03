@@ -10,7 +10,7 @@ function Navbar() {
           Google Books
         </Link>
         <ul className="navbar-nav">
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link
               to="/search"
               className={
@@ -21,7 +21,7 @@ function Navbar() {
               {" "}
               Search
             </Link>
-          </li>
+          </li> */}
           <li className="nav-item">
             <Link
               to="/saved"
